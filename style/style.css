@@ -1,0 +1,734 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: inter;
+  background-color: #000000;
+}
+.common {
+  /* background: linear-gradient(
+      to top,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ),
+    linear-gradient(
+      to bottom,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 0.5) 50%,
+      rgba(255, 255, 255, 0) 100%
+    ); */
+    background: linear-gradient(180deg, #111111 0%, rgba(119, 119, 119, 0) 100%);
+
+  position: relative;
+  left: 0;
+  right: 0;
+  top: 0;
+
+  /* background: linear-gradient(to top, black, rgba(0, 0, 0, 0.9) 50%, black); */
+  height: 715px;
+  width: auto;
+  /* max-width: 1440px; */
+  background-size: 100% 715px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* margin-top: 57px; */
+  
+  margin-right: 190px;
+  margin-left: 190px;
+}
+.logo{
+  margin-top: 57px;
+}
+.nav-menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  gap: 47px;
+  padding: 4px;
+  font-size: 18px;
+  font-weight: 400;
+  border: 1px solid #2f2f2f;
+  border-radius: 39px;
+  color: #ffffff;
+  margin-top: 57px;
+}
+.menu-button {
+  display: none;
+}
+/* hero style ---------------------------------------------------------------- */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+  margin-right: 190px;
+  margin-left: 190px;
+}
+.hero-box1 {
+  margin-top: 96px;
+}
+.hero-box1-para1 {
+  color: #ffffff;
+  font-size: 78px;
+  font-weight: 900;
+  line-height: 93.6px;
+}
+.hero-box1-para2 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 28px 0;
+}
+.hero-box1-button1 {
+  height: 54px;
+  width: 224px;
+  border: 1px solid white;
+  border-radius: 42px;
+  padding: 16px 40px;
+  background-color: #e6533c;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: white;
+}
+.hero-box2 {
+  margin-top: 0px;
+  margin-right: 24px;
+  position: absolute;
+  top: 60px;
+  left: 877px;
+}
+.hero-box2 img {
+  margin-top: 70px;
+  margin-right: 24px;
+  position: absolute;
+  height: 580px;
+  width: 349px;
+}
+.hero-box2-container1 {
+  position: absolute;
+  z-index: 11;
+  height: 98px;
+  width: 193px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  top: 230px;
+  left: 250px;
+  bottom: 200px;
+}
+.hero-box2-container1-para1 {
+  font-size: 40px;
+  font-weight: 900;
+  color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+.hero-box2-container1-para2 {
+  font-size: 13px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.65);
+  margin-left: 20px;
+}
+.hero-box2-container2 {
+  position: absolute;
+  z-index: 10;
+  height: 98px;
+  width: 193px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  top: 470px;
+  left: -100px;
+  bottom: 200px;
+}
+.hero-box2-container2-para1 {
+  font-size: 24px;
+  font-weight: 900;
+  color: white;
+}
+.hero-box2-container2-para2 {
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+}
+/* habit style -------------------------------------------------- */
+.habit {
+  background-color: black;
+  margin-bottom: 100px;
+  margin-right: 190px;
+  margin-left: 190px;
+  margin-top: 100px;
+}
+.habit-para1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.habit-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+  margin-bottom: 58px;
+}
+.habit-box1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.habit-box1-container1 {
+  height: 274px;
+  width: 231px;
+  display: grid;
+  place-items: center;
+}
+.habit-box1-container1 img {
+  height: 180px;
+  width: 180px;
+}
+.habit-box1-container1-para1 {
+  font-size: 18px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
+}
+.habit-box1-container1-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+  text-align: center;
+}
+.habit-box2 {
+  height: 371px;
+  width: 1060;
+  background-color: #222222;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.habit-box2-container1 {
+  padding: 40px 0;
+  padding-left: 54px;
+}
+.habit-box2-container1-para1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+}
+.habit-box2-container1-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.5);
+  margin-top: 14px;
+  margin-bottom: 34px;
+}
+.habit-box2-container2 {
+  padding: 30px 0;
+  padding-right: 32px;
+}
+.habit-box2-container2 img {
+  height: 312px;
+  width: 366px;
+}
+/* trainging and exercises style ---------------------------------------------- */
+.training {
+  height: 581px;
+  width: auto;
+  max-width: 1060px;
+  margin-bottom: 88px;
+  margin-right: 190px;
+  margin-left: 190px;
+  position: relative;
+}
+.training-para1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.training-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  margin-bottom: 58px;
+}
+.training-box1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  max-width: 1060px;
+  height: 201.5px;
+}
+.training-box1-container1 {
+  height: 201.5px;
+  max-width: 250px;
+  position: relative;
+}
+.training-box1-container1 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.training-box1-container1::before {
+  content: "";
+  position: absolute;
+  width: 245px;
+
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #06ffd280;
+  z-index: 1;
+}
+.training-box1-container1-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 157px;
+  left: 24px;
+  position: absolute;
+  z-index: 2;
+}
+.training-box1-container2 {
+  max-width: 520px;
+  height: 201.5px;
+  position: relative;
+  object-fit: cover;
+}
+.training-box1-container2 img {
+  width: 520px;
+  height: 201.5px;
+  object-fit: cover;
+}
+.training-box1-container2::before {
+  content: "";
+  position: absolute;
+  width: 520px;
+  max-width: 524px;
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #ff00004d;
+  z-index: 1;
+}
+.training-box1-container2-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 25px;
+  left: 31px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+.training-box1-container3 {
+  height: 201.5px;
+  max-width: 323px;
+  position: relative;
+  object-fit: cover;
+}
+.training-box1-container3 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.training-box1-container3::before {
+  content: "";
+  position: absolute;
+  width: 323px;
+  max-width: 323px;
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  z-index: 1;
+}
+.training-box1-container3-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 157px;
+  left: 24px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+.training-box2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 0 -100px;
+}
+.training-box2-container1 {
+  /* height: 201.5px;
+  max-width: 425px;
+  position: relative;
+  left: -53px;
+  object-fit: cover; */
+  height: 201.5px;
+  max-width: 100%; /* Ensure the parent div scales based on its container */
+  position: relative;
+  left: -53px;
+  overflow: hidden;
+}
+.training-box2-container1 img {
+  /* max-width: 100%;
+  height: 100%; */
+
+  width: 100%;  /* Image will scale with the parent */
+  height: 100%; /* Maintain full height */
+  object-fit: cover;
+  
+}
+.training-box2-container1::before {
+  /* content: "";
+  position: absolute;
+  width: 425px;
+
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  z-index: 1; */
+
+  content: "";
+  position: absolute;
+  width: 100%; /* Make the overlay scale with the parent */
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #00000080;
+  z-index: 1;
+}
+.training-box2-container1-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 25px;
+  left: 249px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+.training-box2-container2 {
+  max-width: 288px;
+  height: 201.5px;
+  position: relative;
+  object-fit: cover;
+}
+.training-box2-container2 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.training-box2-container2::before {
+  content: "";
+  position: absolute;
+  width: 288px;
+  max-width: 288px;
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #42ff004d;
+  z-index: 1;
+}
+.training-box2-container2-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 144.5px;
+  left: 34px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+.training-box2-container3 {
+  height: 201.5px;
+  max-width: 347px;
+  position: relative;
+  object-fit: cover;
+}
+.training-box2-container3 img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.training-box2-container3::before {
+  content: "";
+  position: absolute;
+  width: 347px;
+  max-width: 347px;
+  height: 201.5px;
+  top: 0;
+  left: 0;
+  background-color: #0047ff4d;
+  z-index: 1;
+}
+.training-box2-container3-para {
+  font-size: 14px;
+  font-weight: 500;
+  top: 145.5px;
+  left: 38px;
+  position: absolute;
+  z-index: 2;
+  color: #ffffff;
+}
+
+/* bmi calculator style --------------------------------------------------- */
+
+.bmical-para1 {
+  font-size: 48px;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+  margin-bottom: 14px;
+  margin-left: 190px;
+}
+.bmical-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  margin-bottom: 58px;
+  margin-left: 190px;
+}
+.bmical-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222222;
+  position: relative;
+  left: 0;
+  right: 0;
+  padding: 52px 0;
+  margin-bottom: 100px;
+}
+.bmical-box1 {
+  position: relative;
+  left: 190px;
+}
+.bmical-box1-para1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-top: -90px;
+  margin-bottom: 52px;
+}
+table {
+  color: #ffffff80;
+  height: 216px;
+  width: 310px;
+  top: 138px;
+  left: 189px;
+}
+table,
+tr,
+th,
+td {
+  border: 1px solid #ffffff1a;
+}
+.bmical-box2 {
+  position: relative;
+  right: 190px;
+  left: -70px;
+}
+.bmical-box2-para1 {
+  font-size: 28px;
+  font-weight: 900;
+  color: white;
+  text-align: left;
+  margin-bottom: 14px;
+}
+.bmical-box2-para2 {
+  font-size: 14px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: left;
+  margin-bottom: 34px;
+}
+.bmical-box2-input1 input,
+.bmical-box2-input2 input {
+  background: #ffffff1a;
+  height: 48px;
+  width: 282.5px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin: 6px;
+  border: none;
+}
+.bmical-box2-input1 input,
+.bmical-box2-input2 input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+#activity-input {
+  background: #ffffff1a;
+  height: 48px;
+  width: 605px;
+  padding: 3px 12px;
+  border-radius: 8px;
+  margin: 6px;
+  border: none;
+  margin-bottom: 34px;
+}
+#activity-input::placeholder {
+  font-size: 16px;
+  font-weight: 400;
+}
+/* meet-team style-------------------------------------------------------------------------- */
+
+.meet-team {
+  height: 782px;
+  width: auto;
+  max-width: 1060px;
+  background-color: black;
+  margin: 0 190px;
+  position: relative;
+  margin-bottom: 88px;
+}
+.meet-team-box {
+  height: 604px;
+  max-width: 1060px;
+}
+.meet-team-box1 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background-position: center;
+  gap: 20px;
+  background-color: #2f2f2f;
+  padding: 20px;
+  border-radius: 18px;
+  position: relative;
+}
+.meet-team-box1-container1 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer1.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+.meet-team-box1-container2 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer2.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+.meet-team-box1-container3 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer3.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+.meet-team-box1-container4 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer4.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+.meet-team-box1-container5 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer5.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+.meet-team-box1-container6 {
+  height: 272px;
+  width: 326.67px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    url(../images/trainer6.png);
+  border-radius: 18px;
+  background-size: cover;
+}
+
+.meet-team-box1-container1-para1 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff;
+  margin-top: 215px;
+  margin-left: 20px;
+}
+.meet-team-box1-container1-para2 {
+  font-size: 20px;
+  font-weight: 900;
+  color: #ffffff80;
+  margin-left: 20px;
+}
+/* footer style ----------------------------------------------------------------------------------------------------------------------------- */
+footer {
+  height: 489px;
+  width: auto;
+  /* max-width: 1440px; */
+  position: relative;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff1a;
+}
+.footer-box1 {
+  position: relative;
+  margin-left: 190px;
+}
+.footer-box1 img {
+  height: 84px;
+  width: 256px;
+}
+.footer-box1-para {
+  font-size: 14px;
+  color: #ffffff80;
+}
+.footer-box2-para1 {
+  margin-bottom: 39px;
+  color: #ffffff;
+}
+.footer-box2-para2 {
+  color: #ffffff80;
+  margin-bottom: 20px;
+}
+.footer-box3 {
+  position: relative;
+  right: 190px;
+}
+.copyright{
+  height: 95px;
+  width: auto;
+  
+  background-color: #ffffff1a;
+}
+.copyright-h4{
+  border: 2px solid #2f2f2f;
+  width: 76%;
+  text-align:center ;
+  margin-left: 180px;
+}
+.copyright-para{
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 36px;
+  color: #FFFFFF80;
+  text-align: center;
+
+}
